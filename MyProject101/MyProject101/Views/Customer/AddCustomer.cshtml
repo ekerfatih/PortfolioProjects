@@ -1,0 +1,17 @@
+@model Customer
+
+
+<form asp-controller="Customer" asp-action="AddCustomer" method="post">
+    <div class="mb-3">
+        <label asp-for="CustomerName" class="form-label">Müşteri İsmi</label>
+        <input asp-for="CustomerName" class="form-control">
+        @Html.ValidationMessageFor(x => x.CustomerId, "", new { @class = "text-danger" })
+    </div>
+    <div class="mb-3">
+        <label asp-for="City" class="form-label">Müşteri Şehri</label>
+        <input asp-for="City" class="form-control">
+        @Html.ValidationMessageFor(x => x.City, "", new { @class = "text-danger" })
+    </div>
+   
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>

@@ -1,0 +1,17 @@
+@model Customer
+
+
+<form asp-controller="Customer" asp-action="EditCustomer" method="post">
+    <input type="hidden" name="CustomerId" value="@Model.CustomerId" />
+    <div class="mb-3">
+        <label asp-for="CustomerName" class="form-label">Ürün İsmi</label>
+        <input asp-for="CustomerName" class="form-control">
+        @Html.ValidationMessageFor(x => x.CustomerName, "", new { @class = "text-danger" })
+    </div>
+    <div class="mb-3">
+        <label asp-for="City" class="form-label">Ürün Fiyatı</label>
+        <input asp-for="City" class="form-control">
+        @Html.ValidationMessageFor(x => x.City, "", new { @class = "text-danger" })
+    </div>
+    <button type="submit" class="btn btn-success">Düzenle</button>
+</form>

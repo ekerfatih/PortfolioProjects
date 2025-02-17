@@ -1,0 +1,31 @@
+@model Product
+
+
+<form asp-controller="Product" asp-action="EditProduct" method="post">
+    <input type="hidden" name="ProductId" value="@Model.ProductId" />
+    @* <div asp-validation-summary="ModelOnly" ></div> *@
+    <div class="mb-3">
+        <label asp-for="ProductName" class="form-label">Ürün İsmi</label>
+        <input asp-for="ProductName" class="form-control">
+        @Html.ValidationMessageFor(x => x.ProductName, "", new { @class = "text-danger" })
+        @* <span class="text-danger" asp-validation-for="ProductName"></span> *@
+    </div>
+    <div class="mb-3">
+        <label asp-for="ProductPrice" class="form-label">Ürün Fiyatı</label>
+        <input asp-for="ProductPrice" class="form-control">
+        @Html.ValidationMessageFor(x => x.ProductPrice, "", new { @class = "text-danger" })
+        @* <span class="text-danger" asp-validation-for="ProductPrice"></span> *@
+    </div>
+    <div class="mb-3">
+        <label asp-for="ProductCategory" class="form-label">Ürün Kategori</label>
+        @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.v, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CategoryId, "", new { @class = "text-danger" })
+    </div>
+    <div class="mb-3">
+        <label asp-for="Stock" class="form-label">Ürün Stoğu</label>
+        <input asp-for="Stock" class="form-control">
+        @Html.ValidationMessageFor(x => x.Stock, "", new { @class = "text-danger" })
+        @* <span class="text-danger" asp-validation-for="Stock"></span> *@
+    </div>
+    <button type="submit" class="btn btn-success">Düzenle</button>
+</form>

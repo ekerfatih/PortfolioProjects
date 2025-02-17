@@ -1,0 +1,13 @@
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll
+C:\Users\fatih\Github Repo\PortfolioProjects\MyProject101\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache

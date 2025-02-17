@@ -1,0 +1,13 @@
+@model Category
+
+
+<form asp-controller="Category" asp-action="AddCategory" method="post">
+    @* <div asp-validation-summary="ModelOnly" ></div> *@
+    <div class="mb-3">
+        <label asp-for="CategoryName" class="form-label">Ürün İsmi</label>
+        <input asp-for="CategoryName" class="form-control">
+        @Html.ValidationMessageFor(x => x.CategoryName, "", new { @class = "text-danger" })
+        @* <span class="text-danger" asp-validation-for="ProductName"></span> *@
+    </div>
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>
