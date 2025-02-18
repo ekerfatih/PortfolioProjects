@@ -1,3 +1,26 @@
+@model UserEditViewModel
+
+<h1>Profil bilgileri düzenleme sayfası</h1>
 
 
-<h1>Şifre Sayfası</h1>
+<form action="" method="post">
+    <label asp-for="Name">Adınız</label>
+    <input type="text" asp-for="Name" class="form-control">
+    <br />
+    <label asp-for="SurName">Soyadınız</label>
+    <input type="text" asp-for="SurName" class="form-control">
+    <br />
+    <label asp-for="Email">Mail Adresiniz</label>
+    <input type="text" asp-for="Email" class="form-control">
+    <br />
+    <label asp-for="Gender">Cinsiyetiniz</label>
+    <input type="text" asp-for="Gender" class="form-control">
+    <br />
+    <label asp-for="Password">Şifre</label>
+    <input type="text" asp-for="Password" class="form-control">
+    <br />
+    <label asp-for="ConfirmPassword">Şifre Tekrar</label>
+    <input type="text" asp-for="ConfirmPassword" class="form-control">
+    <br />
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
