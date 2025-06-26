@@ -1,3 +1,17 @@
+# Ürün ve Müşteri Yönetim Paneli
+Bu proje, kullanıcıların ürünlerini ekleyip stok takibi yapabildikleri bir sistemdir.
+
+Kullanılan Teknolojiler
+
+- ASP.NET Core 8 (MVC)
+- SQL Server (Entity Framework)
+- Bootstrap, CSS, HTML (Frontend için)
+
+Proje İçeriği
+
+User Girişi: Kayıt olma (AspNetCore.Identity)
+CRUD İşlemleri: Ürün, Kategori, Müşteri gibi veritabanı nesneleri için oluşturma, okuma, güncelleme ve silme işlemleri
+
 # Product
 ![Ekran görüntüsü 2025-06-26 173257](https://github.com/user-attachments/assets/cc29dfbe-c90a-4fcb-ba2c-7a5188b8c0d0)
 # Add Category
